@@ -1,0 +1,23 @@
+{
+  "name": "systemjs-typescript-minimal",
+  "version": "0.0.1",
+  "description": "A minimal SystemJS module loader setup with TypeScript support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "systemjs",
+    "typescript",
+    "starter",
+    "sample"
+  ],
+  "author": "Tomas Varga <tomas.varga.cz@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@types/whatwg-fetch": "0.0.33",
+    "plugin-typescript": "^7.1.0",
+    "systemjs": "^0.20.19",
+    "typescript": "^2.5.3"
+  }
+}

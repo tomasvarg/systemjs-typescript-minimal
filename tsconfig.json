@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "typeRoots": "typings",
+    "types": [ "whatwg-fetch" ],
+    "lib": ["dom", "es5", "es2015.promise"]
+  }
+}

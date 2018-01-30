@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SystemJS Typescript Sample</title>
+  </head>
+  <body>
+    <div id="whatever-app"></div>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="system.config.js"></script>
+    <script>
+      System.import('src/main.ts');
+    </script>
+  </body>
+</html>
